@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "EntryFonts",
+  "version": "0.1.0",
+  "description": "엔트리 글상자에서 외부 폰트 사용하기",
+  "icons": {
+  },
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": ["https://playentry.org/*"],
+      "world": "MAIN"
+    }
+  ]
+}
